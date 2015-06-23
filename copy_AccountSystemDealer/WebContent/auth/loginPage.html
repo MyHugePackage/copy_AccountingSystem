@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>会計システム（業者側）</h1>
+<!-- /AccountSystemDealer/auth/loginPage.html -->
+
+ログインしてください。<br>
+初めての方は、新規登録を行ってください。<br><br>
+<form action = "/AccountSystemDealer/LoginPage" method = "post">
+<!-- ------------------------------------------------------ -->
+<input type="hidden" name="rolename" value="dealer"/>
+<!-- ------------------------------------------------------ -->
+ユーザーID <input type ="text" name ="username"/><br>
+パスワード <input type ="password" name ="password"/><br><br>
+
+<input type ="submit" value="ログイン" name ="enter"/><input type ="reset" value="クリア" name ="claer"/><br>
+</form>
+新規登録は<a href = "/AccountSystemDealer/auth/register.html">こちら</a>
+</body>
+</html>
